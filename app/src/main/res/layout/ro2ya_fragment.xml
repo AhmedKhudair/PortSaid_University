@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/frag_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#ff11699c"
+                android:id="@+id/titleRo2ya"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رؤيه الجامعه" />
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/contentro2ya"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ro2ya" />
+
+            <TextView android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#ff11699c"
+                android:id="@+id/titleResala"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رساله الجامعه" />
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/contentResala"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resala" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

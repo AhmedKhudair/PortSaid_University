@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/frag_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="#fff" android:id="@+id/title1" android:background="@drawable/kta3at_draw" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="أنشطة وخدمات المدن بقطاع الطلاب" />
+            <TextView android:gravity="center" android:id="@+id/sodasyat" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="ملعب سداسيات كرة القدم بالأضواء الكاشفة" />
+            <TextView android:gravity="center" android:id="@+id/tayra" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text=" ملعب للكرة الطائرة" />
+            <TextView android:gravity="center" android:id="@+id/ta3am" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="قاعة تناول الطعام والاستذكار بالمبنى أ وتسع 500 طالب" />
+            <TextView android:gravity="center" android:id="@+id/shasha" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="جهاز بروجيكتور وشاشة عرض" />
+            <TextView android:gravity="center" android:id="@+id/masgd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="مسجد يسع 200 طالب" />
+            <TextView android:gravity="center" android:id="@+id/z" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text=" خدمة الغاز الطبيعى بجميع المبانى" />
+            <TextView android:gravity="center" android:id="@+id/es3af" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="10dp" android:layout_marginRight="18dp" android:text="نقطة ارتكاز اسعاف لخدمة الطلبة والمنطقة المحيطة ووجود سيارة اسعاف مجهزة" />
+            <TextView android:gravity="center" android:id="@+id/ta2men" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:text="تأمين الأسوار بإقامة حديد مدعم بالأسلاك الشائكة وحماية جميع مكاتب وقاعات الدور الارضى بحديد كريتال" />
+            <View android:background="#ccc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+            <TextView android:textColor="#fff" android:id="@+id/title2" android:background="@drawable/kta3at_draw" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="أنشطة وخدمات المدن بقطاع الطالبات" />
+            <TextView android:gravity="center" android:id="@+id/net" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="قاعة الانترنت بمبنى الطالبات الكبرى" />
+            <TextView android:gravity="center" android:id="@+id/masgd2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="مسجد بمبنى الطالبات الكبرى" />
+            <TextView android:gravity="center" android:id="@+id/z2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="خدمة الغاز الطبيعى بجميع المبانى" />
+            <TextView android:gravity="center"  android:layout_marginBottom="10dp" android:id="@+id/ta2men2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="10dp" android:layout_marginRight="18dp" android:text="تأمين الاسوار بإقامة حديد مدعم بالأسلا الشائكة وحماية جميع مكاتب وقاعات الدور الارضى بحديد كريتال" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

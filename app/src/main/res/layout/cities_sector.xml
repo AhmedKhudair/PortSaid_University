@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/frag_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tafsyly1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kta3at_draw"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:text="بيان تفصيلى لمبانى قطاع الطلاب"
+                android:textColor="#fff" />
+
+
+
+
+            <TextView
+                android:id="@+id/Malf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="مبني الطلبه أ" />
+
+            <TextView
+                android:id="@+id/mo5asas1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="المخصص للطلاب 80 حجره" />
+
+            <TextView
+                android:id="@+id/mo5asas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="والمخصص للأداره 8 حجرات" />
+
+            <TextView
+                android:id="@+id/mo5asas3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="والحجرات الاداريه مخصصه للأشراف" />
+
+            <TextView
+                android:id="@+id/mo5asas4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="والعمال والمخازن وحجره العزل" />
+
+            <TextView
+                android:id="@+id/yasto3b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="ويستوعب مبنى أ 480 طالب" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ccc" />
+
+            <TextView
+                android:id="@+id/mabnabh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="مبنى ب" />
+
+            <TextView
+                android:id="@+id/mo5asas5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="المخصص للطلاب 111 حجره" />
+
+            <TextView
+                android:id="@+id/mnah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="منها 73 حجره" />
+
+            <TextView
+                android:id="@+id/yasto3b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="يستوعب مبنى ب 610 طالب" />
+
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="اجمالى مايستوعبه قطاع الطلاب 1090 طالب" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ccc" />
+
+            <TextView
+                android:id="@+id/tafsyly2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kta3at_draw"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:text="بيان تفصيلى لمبانى قطاع الطالبات"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/kobra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="مبنى الطالبات الكبرى" />
+
+            <TextView
+                android:id="@+id/mo5asaskobra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="المخصص للطالبات 100 حجره " />
+
+            <TextView
+                android:id="@+id/egmaly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="عدد 6 طلاب بأجمالى 600 طالب" />
+
+            <TextView
+                android:id="@+id/talbatdomayat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="مبنى الطالبات دمياط" />
+
+            <TextView
+                android:id="@+id/aty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="91 حجره كالتالى" />
+
+            <TextView
+                android:id="@+id/zwgy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="76 زوجي و5 رباعي" />
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:id="@+id/egmaly2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="اجمالى مايستوعبه قطاع الطالبات 812 طالبه" />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

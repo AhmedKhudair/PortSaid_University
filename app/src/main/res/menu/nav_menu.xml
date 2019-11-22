@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:icon="@drawable/news"
+            android:title="مركز الاخبار"
+            android:id="@+id/news"/>
+
+    <group android:id="@+id/gam3aGroup">
+        <item
+            android:icon="@drawable/about_uni"
+            android:title="عن الجامعه"
+            android:id="@+id/about"/>
+        <item
+            android:icon="@drawable/administrator"
+            android:title="اداره الجامعه"
+            android:id="@+id/administrator"/>
+        <item
+            android:icon="@drawable/address"
+            android:title="عنوان الجامعه"
+            android:id="@+id/address"/>
+   </group>
+
+    <group android:id="@+id/student">
+        <item
+            android:icon="@drawable/exam"
+            android:title="نتائج الامتحانات"
+            android:id="@+id/examResult"/>
+        <item
+            android:icon="@drawable/madena"
+            android:title="المدن الجامعيه"
+            android:id="@+id/modnGame3ia"/>
+    </group>
+
+    <item
+        android:icon="@drawable/coll"
+        android:title="الكليات"
+        android:id="@+id/college"/>
+
+    <item
+        android:icon="@drawable/about_pro"
+        android:title="عن البرنامج"
+        android:id="@+id/aboutPro"/>
+
+
+
+
+
+</menu>

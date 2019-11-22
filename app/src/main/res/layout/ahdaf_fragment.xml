@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/frag_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleAhdaf"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#ff11699c"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="أهداف الجامعه" />
+
+            <TextView
+                android:textColor="#000"
+                android:gravity="center"
+                android:id="@+id/title2Ahdaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ahdaf" />
+
+            <TextView
+                android:id="@+id/contentAhdaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/Ahdaf"
+                android:textColor="#000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

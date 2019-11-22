@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/frag_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <android.support.design.widget.TabLayout
+        android:background="#eee"
+        app:tabIndicatorColor="#1986c6"
+        app:tabTextColor="#000"
+        app:tabSelectedTextColor="#1986c6"
+        android:id="@+id/tabCities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TabLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagerCities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</LinearLayout>

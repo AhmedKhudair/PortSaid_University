@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/frag_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/background" />
+
+            <TextView
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:id="@+id/contentTare5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="جامعة بورسعيد هي احدى الجامعات الحكومية المصرية، انشئت الجامعة بقرار رئيس الجمهورية يوم 24/2/2010 بتحويل فرع جامعة قناة السويس بمدينة بورسعيد إلى جامعة مستقلة. تضم الجامعة إحدى عشرة كلية ما بين نظرية وعلمية، وتخضع جامعة بورسعيد مثل معظم باقي الجامعات المصرية لإشراف المجلس الأعلى للجامعات، وهو جهاز حكومي يقوم برسم السياسة العامة للتعليم بالجامعات المصرية." />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
